@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="HandheldFriendly" content="true" />
+	<link rel="canonical" href="https://rina.fun/">
+	<meta name="title" content="rina's internet place!">
+	<meta name="description" content="my personal page for stupid stuff i do. projects and more.">
+	<meta name="robots" content="index, follow" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="language" content="en">
+	<meta name="revisit-after" content="6 hours">
+	<meta name="author" content="rina">
+	<meta name="theme-color" content="#eac2d6" />
+	<title>rina’s internet place!</title>
+	<!-- Styles -->
+	<link rel="stylesheet" href="{{url_for('static', filename='style/style.css')}}" />
+	<!--        -->
+</head>
+<a class="admin" href="{{url_for('rick')}}">admin login</a>
+<body>
+	<div class="ckntc nosel">
+		<div class="nosel nav-pos">
+			<span class="screen-reader-only nosel">navigation bar: </span> 
+			{% block nav %}{% endblock %}
+		</div>
+	<div title="Rina" class="cute">
+			<span class="screen-reader-only nosel">a profile picture (a.k.a. "avatar") showing a cartoon character with a purple hair and a purple jacket drinking a juice out of a juice box.</span>
+		</div>
+</div>
+	<div class="page">
+		<div id="stufie" class="links">
+			{% block content %}
+			{% endblock %}
+		</div>
+		<p id="egg"></p>
+	</div>
+	<span class="screen-reader-only nosel">footer text</span>
+	<div class="footer nosel">rina.fun <span class="omj omj-copyleft" title="copyleft"></span><span class="screen-reader-only nosel">copy-left</span> 2022</div>
+<div class="corner nosel links"><span style="padding: 0.62rem;"><a href="{{url_for('credit')}}">click here for credits</a></span></div>
+</body>
+	<!-- JS Start -->
+	<script type="text/javascript" src="{{url_for('static', filename='js/main.js')}}"> </script>	
+	<!-- JS End -->
+</html> 

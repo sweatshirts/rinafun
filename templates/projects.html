@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block nav %}<a href="{{url_for('index')}}"><span class="omj omj-home"></span> home</a> <a href="{{url_for('about')}}"><span class="omj omj-about"></span> about</a> <a class="sel" href="{{url_for('prj')}}"><span class="omj omj-project"></span> projects</a> <a href="{{url_for('info')}}"><span class="omj omj-contact"></span> contact</a>{% endblock %}
+{% block content %}
+			<h1>projects !!</h1>
+			<p><a href="https://github.com/sweatshirts/rinafun">this website</a> is opensource and under MIT license, available on github.<br/><br/>
+            more to come, eventually</p>
+{% endblock %}

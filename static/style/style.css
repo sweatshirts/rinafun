@@ -1,0 +1,242 @@
+/*main style*/
+@font-face {
+  font-family: 'fnt';
+  font-display: auto;
+  src: local('fnt'), url(Roboto.ttf);
+}
+
+h1,
+p {
+  text-align: center;
+  font-family: fnt;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  background: #eac2d6;
+  color: #e985cd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-display: auto;
+  margin: 2.5rem auto;
+  max-width: 56.25rem;
+}
+
+.page {
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 0.31rem rgba(0, 0, 0, .75);
+  padding: 0.62rem;
+}
+
+h1 {
+  color: #e985cd;
+  font-family: fnt;
+  font-size: 165%
+}
+
+a {
+  font-family: fnt;
+  display: block;
+  color: #3d2548;
+  background-color: #dcdcdc;
+  border-color: #d099c5;
+  border-style: solid;
+  border-width: 0.08rem;
+  text-align: center;
+  height: 2rem;
+  width: 6rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+a:hover {
+  color: #dcdcdc;
+  background-color: #d099c5;
+}
+
+.sel {
+  display: block;
+  color: #dcdcdc;
+  background-color: #d099c5;
+  border-color: #d099c5;
+  border-style: solid;
+  border-width: 0.08rem;
+  height: 2rem;
+  width: 6rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+
+.cute {
+  position: absolute;
+  margin-top: 7.8rem;
+  left: 0.6rem;
+  width: 7rem;
+  height: 7rem;
+  background-image: url("../img/avi.webp");
+  background-position: right;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .75);
+  border-radius: 15%;
+  border-style: solid;
+  border-width: 0.2rem;
+  border-color: #fff;
+}
+
+.nosel {
+  text-align: right;
+  cursor: default;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.nav-pos {
+  position: absolute;
+  margin-top: 1rem;
+  right: 0.65rem;
+}
+.footer {
+  font-family: fnt;
+  position: relative;
+  width: auto;
+  bottom: 0rem;
+  right: 0rem;
+  left: 0rem;
+  height: 2rem;
+  background: #e985cd;
+  z-index: 2;
+  margin-left: auto;
+  margin-right: auto;
+  color: #3d2548;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 2rem;
+}
+
+.corner {
+  color: #3d2548;
+  position: fixed;
+  right: 0.8rem;
+  bottom: 0.8rem;
+  width: auto;
+}
+
+.links a {
+  text-align: center;
+  display: inline;
+  font-family: fnt;
+  color: #3d2548;
+  background-color: transparent;
+  border-style: none;
+  padding: 0rem;
+  width: auto;
+}
+
+.links a:hover {
+  display: inline;
+  color: #e985cd;
+  padding: 0rem;
+  width: auto;
+}
+
+.admin {
+  font-family: fnt;
+  font-size: 1em;
+  display: inline-block;
+  color: #e985cd;
+  border-width: 0rem;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0.62rem;
+  width: auto;
+}
+
+.admin:hover {
+  font-family: fnt;
+  font-size: 1em;
+  display: inline-block;
+  color: #e985cd;
+  border-width: 0rem;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0.62rem;
+  width: auto;
+}
+
+#eggpic {
+  width: 35em;
+  height: auto;
+}
+
+.ckntc {
+  position: relative;
+  width: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 12rem;
+  background-image: url("../img/riri.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 2;
+  box-shadow: 0 0 0.31rem rgba(0, 0, 0, .75);
+}
+
+.screen-reader-only {
+  font-size: 0pt;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: 0px;
+  border: 0;
+}
+
+.omj { 
+  display: inline-block;
+  height: 1.5em;
+  width: 1.5em;
+  vertical-align: -0.33em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 0.33em;
+}
+
+.omj-boba {
+  background-image: url("../svgs/1F9CB.svg")
+}
+.omj-white-heart {
+  background-image: url("../svgs/1F90D.svg")
+}
+.omj-normal-heart {
+  background-image: url("../svgs/2764.svg")
+}
+.omj-srb {
+  background-image: url("../svgs/1F1F7-1F1F8.svg")
+}
+.omj-contact {
+  background-image: url("../svgs/E256.svg")
+}
+.omj-home {
+  background-image: url("../svgs/E25E.svg")
+}
+.omj-about {
+  background-image: url("../svgs/1F469.svg")
+}
+.omj-project {
+  background-image: url("../svgs/E1C1.svg")
+}
+.omj-copyleft {
+  background-image: url("../svgs/1F12F.svg")
+}
