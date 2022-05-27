@@ -33,6 +33,8 @@ def credit():
 @app.route('/wp-login.php') #fuck you, especially, bots
 @app.route('/adminLogin/')
 def rick():
+    return "<head><meta name="title" content="rina's internet place! (admin page)"><meta name="description" content="why are you sharing this? this couldn't possibly be a rickroll!"></head>"
     return redirect("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+
 if __name__ == "__main__":
     app.run()
